@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "name":"Pizza Order Management System",
+            "image":"/assets/images/Pizza-02-256.png" ,
+            "desc":"A Pizza ordering system developed in Laravel framework with MySql as backend" ,
+            "link":"https://github.com/GauravTayade?tab=repositories"
+        },
+        {
+            "name":"Weather Application",
+            "image":"/assets/images/Weather-256.png" ,
+            "desc":"Weather App using React and open weather API" ,
+            "link":"https://github.com/GauravTayade/weather-app"
+        },
+        {
+            "name":"Music Player",
+            "image":"/assets/images/CD-Music-256.png" ,
+            "desc":"A music player app using React" ,
+            "link":"https://github.com/GauravTayade/music-player"
+        },
+        {
+            "name":"Book Inventory Management",
+            "image":"/assets/images/Book-Shelf-256.png" ,
+            "desc":"A book inventory management system using javafx and postgreSql" ,
+            "link":"https://github.com/GauravTayade/BookInventory-postgresql"
+        }
+    ]
+}

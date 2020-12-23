@@ -1,0 +1,32 @@
+{
+    "musicData": [
+        {
+            "name":"21 Pilot",
+            "image":"/assets/images/music/21pilot.jfif"
+        },
+        {
+            "name":"Dua Lipa",
+            "image":"/assets/images/music/dualipa.jfif"
+        },
+        {
+            "name":"Black Eyed Peace",
+            "image":"/assets/images/music/bep.jfif"
+        },
+        {
+            "name":"Regards",
+            "image":"/assets/images/music/regards.jfif"
+        },
+        {
+            "name":"The Weekend",
+            "image":"/assets/images/music/weekend.jfif"
+        },
+        {
+            "name":"Ariana Grande",
+            "image":"/assets/images/music/ariana.jfif"
+        },
+        {
+            "name":"G-Eazy",
+            "image":"/assets/images/music/geazy.jfif"
+        }
+    ]
+}

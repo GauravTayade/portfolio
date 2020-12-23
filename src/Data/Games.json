@@ -1,0 +1,58 @@
+{
+    "gamesData": [
+        {
+            "title": "Watch dog Legion",
+            "image": "/assets/games/watch-dog-legion.jpg",
+            "desc": "",
+            "category":"Action, Adventure"
+        },
+        {
+            "title": "Cyberpunk 2077",
+            "image": "/assets/games/cyberpunk.png",
+            "desc": "",
+            "category":"Action, RPG, Open World"
+        },
+        {
+            "title": "Far Cry 5",
+            "image": "/assets/games/fry-cry-5.jpg",
+            "desc":"" ,
+            "category":"Shooter"
+        },
+        {
+            "title": "Final Fantasy XV",
+            "image": "/assets/games/ff-xv.jpg",
+            "desc": "",
+            "category":"Role Playing, Single Player, Online Multiplayer"
+        },
+        {
+            "title": "Ghost Recon - Breakpoint",
+            "image":"/assets/games/ghost-recon.jpg" ,
+            "desc": "",
+            "category":"Action, Shooter, Single pLayer, Online Multiplayer"
+        },
+        {
+            "title": "Grid",
+            "image": "/assets/games/grid.jpg",
+            "desc": "",
+            "category":"Racing, Online Multiplayer"
+        },
+        {
+            "title": "Mortal Kombat 11",
+            "image": "/assets/games/MK11.jpg",
+            "desc": "",
+            "category":"Fighting, Action, Online Multiplayer"
+        },
+        {
+            "title": "Assassin's Creed Odyssey",
+            "image": "/assets/games/odesey.jpeg",
+            "desc": "",
+            "category":"Action Role Playing Game, Action Adventure Game, Open world"
+        },
+        {
+            "title": "Destiny 2",
+            "image": "/assets/games/destiny-2.jpg",
+            "desc": "",
+            "category":"Action, Adventure, Shooter, Single PLayer"
+        }
+    ]
+}

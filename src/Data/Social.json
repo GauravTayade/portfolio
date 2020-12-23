@@ -1,0 +1,28 @@
+{
+    "social": [
+        {
+            "name": "Github",
+            "image":"/assets/images/icons8-github-256.png" ,
+            "desc": "Programmers' Social Media" ,
+            "link": "https://www.github.com"
+        },
+        {
+            "name": "LinkedIn",
+            "image": "/assets/images/icons8-linkedin-256.png" ,
+            "desc": "Connect with me to know more about my journey" ,
+            "link": "https://www.facebook.com"
+        },
+        {
+            "name": "Facebook",
+            "image": "/assets/images/icons8-facebook-256.png",
+            "desc": "Follow me to get to know more about me",
+            "link": "https://www.instagram.com"
+        },
+        {
+            "name": "Youtube",
+            "image":"/assets/images/icons8-youtube-256.png",
+            "desc": "Heaven for digital media",
+            "link":"https://www.youtube.com/channel/UCFhN27DNg9uB7Q7MiMl-SzQ"
+        }
+    ]
+}
