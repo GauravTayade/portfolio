@@ -29,15 +29,16 @@ const Home = (props) => {
 
     useEffect(()=>{
         setSocial(SocialData);
+        document.title="Home - Gaurav Tayade";
     },[])
 
     return(
-        <motion.div className="container-fluid h-100 d-inline-block p-0" initial={{opacity:0}}  animate={{opacity:1}} transition={{duration:0.6}}>
+        <motion.div className="container-fluid h-100 d-inline-block" initial={{opacity:0}}  animate={{opacity:1}} transition={{duration:0.6}}>
             <div className="row m-0 p-0">
-                <div className="col-md-5 m-0 p-0 background">
+                <div className="col-md-5 col-sm-5 m-0 p-0 background">
 
                 </div>
-                <div className="col-md-7 m-0 p-0">
+                <div className="col-md-7 col-sm-7 m-0 p-0">
                     <div className="jumbotron jumbotron-fluid h-100" style={{backgroundColor:"#F7F8FA"}}>
                         <div className="container-fluid text-center">
                             <TypeIt className="display-4" options={{strings:['Hello There'],speed:2,waitUntilVisible: true}}/>
@@ -57,7 +58,7 @@ const Home = (props) => {
                 </div>
             </div>
 
-            <div className="row justify-content-around my-5 mx-auto">
+            <div className="row justify-content-center p-0 m-0 my-5">
                 {social ?
                     social.social.map((socialCard)=>{
                         return (
@@ -71,8 +72,8 @@ const Home = (props) => {
 
             <div className="container-fluid">
                 <h1 className="display-4 text-center">What I Know</h1>
-                <div className="row overflow-hidden slider m-4">
-                    <div className="card text-center border-0" style={{width: "18rem"}}>
+                <div className="row justify-content-center slider m-4">
+                    <div className="card text-center border-0" style={{width: "14rem"}}>
                             <div className="card-body">
                                 <FontAwesomeIcon icon={faReact} className="display-1"/>
                                 <p className="card-text">
@@ -80,7 +81,7 @@ const Home = (props) => {
                                 </p>
                             </div>
                     </div>
-                    <div className="card text-center border-0" style={{width: "18rem"}}>
+                    <div className="card text-center border-0" style={{width: "14rem"}}>
                         <div className="card-body">
                             <FontAwesomeIcon icon={faJs} className="display-1"/>
                             <p className="card-text">
@@ -88,7 +89,7 @@ const Home = (props) => {
                             </p>
                         </div>
                     </div>
-                    <div className="card text-center border-0" style={{width: "18rem"}}>
+                    <div className="card text-center border-0" style={{width: "14rem"}}>
                         <div className="card-body">
                             <FontAwesomeIcon icon={faLaravel} className="display-1"/>
                             <p className="card-text">
@@ -96,7 +97,7 @@ const Home = (props) => {
                             </p>
                         </div>
                     </div>
-                    <div className="card text-center border-0" style={{width: "18rem"}}>
+                    <div className="card text-center border-0" style={{width: "14rem"}}>
                         <div className="card-body">
                             <FontAwesomeIcon icon={faPhp} className="display-1"/>
                             <p className="card-text">
@@ -104,7 +105,7 @@ const Home = (props) => {
                             </p>
                         </div>
                     </div>
-                    <div className="card text-center border-0" style={{width: "18rem"}}>
+                    <div className="card text-center border-0" style={{width: "14rem"}}>
                         <div className="card-body">
                             <FontAwesomeIcon icon={faVuejs} className="display-1"/>
                             <p className="card-text">
@@ -112,7 +113,7 @@ const Home = (props) => {
                             </p>
                         </div>
                     </div>
-                    <div className="card text-center border-0" style={{width: "18rem"}}>
+                    <div className="card text-center border-0" style={{width: "14rem"}}>
                         <div className="card-body">
                             <FontAwesomeIcon icon={faJava} className="display-1"/>
                             <p className="card-text">
@@ -120,7 +121,7 @@ const Home = (props) => {
                             </p>
                         </div>
                     </div>
-                    <div className="card text-center border-0" style={{width: "18rem"}}>
+                    <div className="card text-center border-0" style={{width: "14rem"}}>
                         <div className="card-body">
                             <FontAwesomeIcon icon={faBootstrap} className="display-1"/>
                             <p className="card-text">
@@ -128,7 +129,7 @@ const Home = (props) => {
                             </p>
                         </div>
                     </div>
-                    <div className="card text-center border-0" style={{width: "18rem"}}>
+                    <div className="card text-center border-0" style={{width: "14rem"}}>
                         <div className="card-body">
                             <FontAwesomeIcon icon={faDatabase} className="display-1"/>
                             <p className="card-text m-2">
@@ -136,7 +137,7 @@ const Home = (props) => {
                             </p>
                         </div>
                     </div>
-                    <div className="card text-center border-0" style={{width: "18rem"}}>
+                    <div className="card text-center border-0" style={{width: "14rem"}}>
                         <div className="card-body">
                             <FontAwesomeIcon icon={faEnvira} className="display-1"/>
                             <p className="card-text">
@@ -144,7 +145,7 @@ const Home = (props) => {
                             </p>
                         </div>
                     </div>
-                    <div className="card text-center border-0" style={{width: "18rem"}}>
+                    <div className="card text-center border-0" style={{width: "14rem"}}>
                         <div className="card-body">
                             <FontAwesomeIcon icon={faCuttlefish} className="display-1"/>
                             <p className="card-text">
@@ -152,7 +153,7 @@ const Home = (props) => {
                             </p>
                         </div>
                     </div>
-                    <div className="card text-center border-0" style={{width: "18rem"}}>
+                    <div className="card text-center border-0" style={{width: "14rem"}}>
                         <div className="card-body">
                             <FontAwesomeIcon icon={faCss3} className="display-1"/>
                             <p className="card-text">
@@ -160,7 +161,7 @@ const Home = (props) => {
                             </p>
                         </div>
                     </div>
-                    <div className="card text-center border-0" style={{width: "18rem"}}>
+                    <div className="card text-center border-0" style={{width: "14rem"}}>
                         <div className="card-body">
                             <FontAwesomeIcon icon={faFire} className="display-1"/>
                             <p className="card-text">

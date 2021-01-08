@@ -1,7 +1,10 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 const NotFound = (props) =>{
 
+    useEffect(()=>{
+        document.title = "404 Error"
+    })
     return(
         <div className="container-fluid">
             <div className="row h-100 text-center justify-content-center align-items-center">

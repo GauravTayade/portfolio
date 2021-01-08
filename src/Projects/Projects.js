@@ -4,6 +4,10 @@ import ProjectList from "./ProjectList";
 
 const Projects = (props) =>{
 
+    useEffect(()=>{
+        document.title="Projects - Gaurav Tayade";
+    })
+
     return(
         <motion.div className="projects" initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.6}}>
             <h1 className="display-4 text-center m-4">Projects Page</h1>

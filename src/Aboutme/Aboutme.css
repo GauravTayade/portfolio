@@ -1,0 +1,12 @@
+.custom-marker{display: -ms-flexbox;
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 1;
+}

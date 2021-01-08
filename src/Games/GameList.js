@@ -11,7 +11,7 @@ const GameList =(props)=>{
     })
 
     return(
-        <div className="row justify-content-around">
+        <div className="row justify-content-around m-0 p-0">
             {
                 games?
                     games.gamesData.map(game=>{

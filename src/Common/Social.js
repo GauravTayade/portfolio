@@ -4,7 +4,7 @@ import {motion} from "framer-motion";
 const  Social = (props) =>{
 
     return(
-        <motion.div className="card shadow-lg mt-5 text-center " style={{width:"18rem"}} whileHover={{scale: 0.9, transition: { duration: 0.6 },}}>
+        <motion.div className="card shadow-lg mx-auto mt-5 text-center " style={{width:"16rem"}} whileHover={{scale: 0.9, transition: { duration: 0.6 },}}>
             <div className="card-header border-0 bg-white">
                 {props.name}
             </div>

@@ -11,7 +11,7 @@ const MusicList =(props)=>{
     },[])
 
     return(
-        <div className="row justify-content-around">
+        <div className="row justify-content-around m-0 p-0">
             {musicList? musicList.musicData.map((music)=>{
                 return (<Music name={music.name} image={music.image}/>)
             }):'no data'}

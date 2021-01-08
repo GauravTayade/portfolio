@@ -18,6 +18,7 @@ const Navigation = (props) =>{
                     <Link className="nav-item nav-link" to="/projects">Projects</Link>
                     <Link className="nav-item nav-link" to="/activities">Activities</Link>
                     <Link className="nav-item nav-link" to="/resume">Resume</Link>
+                    <Link className="nav-item nav-link" to="/aboutme">AboutMe</Link>
                 </div>
             </div>
         </nav>
